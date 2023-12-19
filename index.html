@@ -347,110 +347,301 @@
       
       <div class="clearfix"></div>
 
-      <div class="over-window">
-        <!-- モーダル本体 -->
-        <div id="sotsugyokenkyu" class="modal">
-          <a class="close" onclick="closeModal('sotsugyokenkyu')" href="#_">&times;</a>
-          <!-- 画像を選択 -->
-            <img class="pp-image" src="" alt="">
-            <div class="pp-title">
-              <h2>卒業研究</h2>
-            </div>
-            <div class="pp-duration">
-              2023/11～2025/02
-            </div>
-            <div class="pp-role">
-              メンバー：個人製作　役割：ROSを用いたプログラム制御
-            </div>
-            <div class="pp-link">
-              <!-- <a class="works-url-link" href="https://github.com/" target="_blank">リンク：GitHub</a> -->
-            </div>
-            <div class="pp-content">
-              <div class="outline-title">プロダクトの概要</div>
-              <div class="outline">
-                これから頑張ります！
-                <!-- WEB注文システム：説明、フローチャート、動作動画、リンク -->
-                <!-- ロボット制御：説明、フローチャート、動作動画 -->
-                <!-- 自作した機械の制御：説明、フローチャート、動作動画 -->
-              </div>
-              
-              <div class="feature-title">活動を通して</div>  
-              <div class="feature">
-                これから頑張ります！
-              </div>
-            </div>
-            <div class="illust">
-              <div class="pp-item">
-                画像はクリックで拡大できます<br><br>
-              </div>
 
-              <!-- Fullscreen Image Container -->
-              <div id="action-aski">
-                <!-- <video  preload="none" class="pp-item" controls src="item/works/action/marioasuki-.mp4"></video><br>
-                動画１：最初に作成したアスキー版のゲーム<br>
-              </div>
-              <div id="action-2d">
-                <video  preload="none" class="pp-item" controls src="item/works/action/2D_last.mp4"></video><br>
-                動画２：アスキー版をもとに作成した２Dアクションゲーム -->
-              </div>
-            </div>
-        </div>
+      <!-- モーダルの背後の背景 -->
+      <div id="modalBackground" class="modal-background" onclick="closeModal('kisokenkyu')"></div>
 
-        <!-- モーダル本体 -->
-        <div id="kisokenkyu" class="modal">
-          <a class="close" onclick="closeModal('kisokenkyu')" href="#_">&times;</a>
+      <!-- モーダル本体 -->
+      <div id="portfolio" class="modal">
+        <a class="close" onclick="closeModal('portfolio')" href="#_">&times;</a>
           <!-- 画像を選択 -->
           <img class="pp-image" src="" alt="">
           <div class="pp-title">
-            <h2>回転寿司のDX化</h2>
+            <h2>ポートフォリオ</h2>
           </div>
           <div class="pp-duration">
-            2023/04～2023/10　授業時間（２時間/週） + 放課後（累計約100時間）
+            製作期間：30時間
           </div>
           <div class="pp-role">
-            メンバー：５人　役割：リーダー、機械制御、注文・通信システム
+            メンバー：個人製作
           </div>
           <div class="pp-link">
-            <a class="works-url-link" href="https://github.com/shim-bei/kisokenkyu" target="_blank">リンク：GitHub</a>
+            <a class="works-url-link" href="https://github.com/shim-bei/MyProf_kitano" target="_blank">リンク：GitHub</a>
+          </div>                        
+          <div class="pp-content">
+            <div class="outline">
+              <div class="outline-title">プロダクトの概要</div>
+              就職活動を含め、自己紹介をしやすくするために制作しました。WORKSの中身は特に力を入れたので、御覧になって頂けて嬉しいです！
+              半年前にも制作していたので、もしよければご覧になって下さい。<br>
+              <a class="works-url-link" href="http://sushin.php.xdomain.jp/Info_Kitano.html">リンク：2023年5月に制作したホームページ</a>
+            </div>
+
+            <br>
+            <div class="feature-title">活動を通して</div>
+            <div class="feature">
+              半年前に一度作ったのですが今思うと「色使いだったり見やすさだったり分かりやすさだったり、良くないな」と思います。
+              これが見やすいかはわかりませんが、間違いなく清聴はしていると実感できました。
+              今後とも継続して努力していこうと思います。
+              
+            </div>          
+          </div>
+          
+          <div class="illust">
+            <div class="pp-item">
+              画像はクリックで拡大できます<br><br>
+            </div>
+          </div>
+      </div>
+
+      <!-- モーダル本体 -->
+      <div id="sotsugyokenkyu" class="modal">
+        <a class="close" onclick="closeModal('sotsugyokenkyu')" href="#_">&times;</a>
+        <!-- 画像を選択 -->
+          <img class="pp-image" src="" alt="">
+          <div class="pp-title">
+            <h2>卒業研究</h2>
+          </div>
+          <div class="pp-duration">
+            2023/11～2025/02
+          </div>
+          <div class="pp-role">
+            メンバー：個人製作　役割：ROSを用いたプログラム制御
+          </div>
+          <div class="pp-link">
+            <!-- <a class="works-url-link" href="https://github.com/" target="_blank">リンク：GitHub</a> -->
+          </div>
+          <div class="pp-content">
+            <div class="outline-title">プロダクトの概要</div>
+            <div class="outline">
+              これから頑張ります！
+              <!-- WEB注文システム：説明、フローチャート、動作動画、リンク -->
+              <!-- ロボット制御：説明、フローチャート、動作動画 -->
+              <!-- 自作した機械の制御：説明、フローチャート、動作動画 -->
+            </div>
+            
+            <div class="feature-title">活動を通して</div>  
+            <div class="feature">
+              これから頑張ります！
+            </div>
+          </div>
+          <div class="illust">
+            <div class="pp-item">
+              画像はクリックで拡大できます<br><br>
+            </div>
+
+            <!-- Fullscreen Image Container -->
+            <div id="action-aski">
+              <!-- <video  preload="none" class="pp-item" controls src="item/works/action/marioasuki-.mp4"></video><br>
+              動画１：最初に作成したアスキー版のゲーム<br>
+            </div>
+            <div id="action-2d">
+              <video  preload="none" class="pp-item" controls src="item/works/action/2D_last.mp4"></video><br>
+              動画２：アスキー版をもとに作成した２Dアクションゲーム -->
+            </div>
+          </div>
+      </div>
+
+      <!-- モーダル本体 -->
+      <div id="kisokenkyu" class="modal">
+        <a class="close" onclick="closeModal('kisokenkyu')" href="#_">&times;</a>
+        <!-- 画像を選択 -->
+        <img class="pp-image" src="" alt="">
+        <div class="pp-title">
+          <h2>回転寿司のDX化</h2>
+        </div>
+        <div class="pp-duration">
+          2023/04～2023/10　授業時間（２時間/週） + 放課後（累計約100時間）
+        </div>
+        <div class="pp-role">
+          メンバー：５人　役割：リーダー、機械制御、注文・通信システム
+        </div>
+        <div class="pp-link">
+          <a class="works-url-link" href="https://github.com/shim-bei/kisokenkyu" target="_blank">リンク：GitHub</a>
+        </div>          
+        <div class="pp-content">
+          <div class="outline-title">プロダクトの概要</div>
+          <div class="outline">
+            学校の授業で「風評被害に遭った回転寿司店のDX化を図ろう」というテーマのもと、５人チームで取り組みました。
+            授業の概要および制作物は以下のパワーポイント、もしくは当日掲載した<a class="works-url-link" href="item/works/kisoken/D班_ポスター.pdf" target="_blank">ポスター</a>
+            をご覧になって頂けると分かりやすいかと思います。<br>
+            <iframe src="https://onedrive.live.com/embed?resid=8317401A02AA3648%21417&amp;authkey=!AHYSkkLnidsqB-A&amp;em=2&amp;wdAr=1.7767857142857142" width="700px" height="400px" frameborder="0"></iframe>
+            <br>説明用のパワーポイント
+            <br><br>
+
+            制作物の中で、私が担当したのは「WEB注文システムの構築」、「それに基づいた既製品のロボット制御」、「自作した機械の制御」および「チームリーダー」です。
+            <ul>
+              <li>WEB注文システム：スマートフォンで注文し、Pythonで注文データを処理するようにしました。
+              右に記載した、図2のフローチャート、動作動画および<a class="works-url-link" href="http://sushin.php.xdomain.jp/sushi/home.html" target="_blank">こちらのリンク</a>から制作したWEBページをご覧ください。<br>
+              （WEBページのレイアウトはスマートフォンのみに対応しています）</li>
+              <li>ロボット制御：Dobotという既製品のロボットハンドの位置制御を行いました。
+              <li>自作した機械の制御：Dobotの動きに同期して、メンバーが制作したハンドをBlueTooth通信で制御しました。
+            </ul>
+          </div>
+
+          <br>
+          <div class="feature-title">活動を通して</div>
+          <div class="feature">
+            -リーダー経験を通じて-<br>
+            リーダーをしているからか、チームでモノづくりをするのがとても難しいと感じました。
+            アイデア出しから進捗の共有やタスクの分散、動作実験のトライアンドエラーなど、一人でやっていたら経験しなかった問題がたくさんあり、大変でした。
+            しかし、機械が出来て進捗が出た時などはみんなと喜びを共有できるのがとてもやりがいがありました。
+            また、出来ることが増えるので上手くできればとても効率よくモノづくりをすすめられると感じました。
+            お互いに進捗を出さないと迷惑をかけたり、メンバーが頑張っているからやる気が出たり、プラスに働く要素がとても多かったです。
+            
+            <br><br>
+            -注文システムを作成して-<br>
+            これを機にWEB制作を始めたので、無料のレンタルサーバーを契約して、データベースを作って保存して、
+            クエリに苦戦して、PHPに挑戦して、WEBページ制作を１から始めてと、とてもやることが多かったです。
+            最初はPythonで直接レンタルサーバーのおかげで使えたデーターベースからデータを取り出そうとしていたが、無料のサーバーなので出来なかったのでだいぶ困りました。
+            結局いろんな人に聞いたりネットで調べたりした結果、PHPでデータをWEB上においてからPythonでそのページにアクセスするという方法にしました。
+            今思うと、データの脆弱性など問題がある方法をとってしまったと反省している。やはり有料のモノを使う方が便利な点が多いと感じました。
+          </div>        
+        </div>
+        <div class="illust">
+          <div class="pp-item">
+            画像はクリックで拡大できます<br><br>
+          </div>
+
+          <!-- Fullscreen Image Container -->
+          <div id="kisoken-system">
+            <a href="item/works/kisoken/システム構成.png" data-lightbox="group">
+              <img class="pp-item" src="item/works/kisoken/システム構成.png">
+            </a>
+            <br>
+            図１：全体のシステム構成
+          </div>
+          <br>
+          <div id="action-aski">
+            <a class="video-link" href="https://drive.google.com/file/d/1GxdkWUIp4RsAm7OJHUwm2yDIf9AUKwED/view?usp=sharing">動画：注文から提供までの様子</a>
+            <br>
+          </div>
+          <br>
+          <div id="entire-flow">
+            <a href="item/works/kisoken/zentai.png" data-lightbox="group">
+              <img class="pp-item" src="item/works/kisoken/zentai.png">
+            </a>
+            <br>
+            図２：制作したシステム全体のフローチャート<br>
+          </div>
+          <br>
+          <div id="kisoken-database">
+            <a href="item/works/kisoken/database.png" data-lightbox="group">
+              <img class="pp-item" src="item/works/kisoken/database.png">
+            </a>
+            <br>
+            図３：実際に使用したデータベースの画面<br>
+          </div>
+          <br>
+        </div>
+      </div>
+
+      <!-- モーダル本体 -->
+      <div id="minesweeper" class="modal">
+        <a class="close" onclick="closeModal('minesweeper')" href="#_">&times;</a>
+        <!-- 画像を選択 -->
+          <img class="pp-image" src="" alt="">
+          <div class="pp-title">
+            <h2>Pythonで作成したミニゲーム　～MineSweeper～</h2>
+          </div>
+          <div class="pp-duration">
+            製作期間：約１５時間
+          </div>
+          <div class="pp-role">
+            メンバー：個人製作
+          </div>
+          <div class="pp-link">
+            <a class="works-url-link" href="https://github.com/shim-bei/mini-game/tree/main/python" target="_blank">リンク：GitHub</a>
           </div>          
           <div class="pp-content">
             <div class="outline-title">プロダクトの概要</div>
             <div class="outline">
-              学校の授業で「風評被害に遭った回転寿司店のDX化を図ろう」というテーマのもと、５人チームで取り組みました。
-              授業の概要および制作物は以下のパワーポイント、もしくは当日掲載した<a class="works-url-link" href="item/works/kisoken/D班_ポスター.pdf" target="_blank">ポスター</a>
-              をご覧になって頂けると分かりやすいかと思います。<br>
-              <iframe src="https://onedrive.live.com/embed?resid=8317401A02AA3648%21417&amp;authkey=!AHYSkkLnidsqB-A&amp;em=2&amp;wdAr=1.7767857142857142" width="700px" height="400px" frameborder="0"></iframe>
-              <br>説明用のパワーポイント
-              <br><br>
-
-              制作物の中で、私が担当したのは「WEB注文システムの構築」、「それに基づいた既製品のロボット制御」、「自作した機械の制御」および「チームリーダー」です。
+              授業の実験実習で「PythonのTkinterを用いてなにか作ってみよう。」というテーマで、このゲームを制作しました。
+              設定は「地雷探知機が5×5マスの中から地雷を探し出す」というものです。
+              このゲームの仕様は以下の通りです。
               <ul>
-                <li>WEB注文システム：スマートフォンで注文し、Pythonで注文データを処理するようにしました。
-                右に記載した、図2のフローチャート、動作動画および<a class="works-url-link" href="http://sushin.php.xdomain.jp/sushi/home.html" target="_blank">こちらのリンク</a>から制作したWEBページをご覧ください。<br>
-                （WEBページのレイアウトはスマートフォンのみに対応しています）</li>
-                <li>ロボット制御：Dobotという既製品のロボットハンドの位置制御を行いました。
-                <li>自作した機械の制御：Dobotの動きに同期して、メンバーが制作したハンドをBlueTooth通信で制御しました。
+                <li>プレイヤーの操作はTkinterの入力ボックス（右図の青丸の部分）から
+                  「a」・「d」・「w」・「s」を入力しEnterキーを押すと、それぞれ左・右・上・下の移動を行う。</li>
+                <li>「距離を測る」と書かれたボタンを押すことで地雷との距離を測定する</li>
+                <li>「地雷をCrash！」と書かれたボタンを押すことで地雷が現在の座標にあるかを確認する</li>
+                <li>地雷の上で「地雷をCrash！」ボタンを押したらクリア！</li>
+                <li>右上の制限時間が０になると強制的にWindowを終了され、ゲームオーバー！</li>
               </ul>
             </div>
 
             <br>
             <div class="feature-title">活動を通して</div>
             <div class="feature">
-              -リーダー経験を通じて-<br>
-              リーダーをしているからか、チームでモノづくりをするのがとても難しいと感じました。
-              アイデア出しから進捗の共有やタスクの分散、動作実験のトライアンドエラーなど、一人でやっていたら経験しなかった問題がたくさんあり、大変でした。
-              しかし、機械が出来て進捗が出た時などはみんなと喜びを共有できるのがとてもやりがいがありました。
-              また、出来ることが増えるので上手くできればとても効率よくモノづくりをすすめられると感じました。
-              お互いに進捗を出さないと迷惑をかけたり、メンバーが頑張っているからやる気が出たり、プラスに働く要素がとても多かったです。
-              
-              <br><br>
-              -注文システムを作成して-<br>
-              これを機にWEB制作を始めたので、無料のレンタルサーバーを契約して、データベースを作って保存して、
-              クエリに苦戦して、PHPに挑戦して、WEBページ制作を１から始めてと、とてもやることが多かったです。
-              最初はPythonで直接レンタルサーバーのおかげで使えたデーターベースからデータを取り出そうとしていたが、無料のサーバーなので出来なかったのでだいぶ困りました。
-              結局いろんな人に聞いたりネットで調べたりした結果、PHPでデータをWEB上においてからPythonでそのページにアクセスするという方法にしました。
-              今思うと、データの脆弱性など問題がある方法をとってしまったと反省している。やはり有料のモノを使う方が便利な点が多いと感じました。
-            </div>        
+              Pythonを使って制作するのはこれが初めてでしたが、C++を経験していたのと、ゲーム制作を一度経験していたので、難なく制作することが出来ました。
+              一度経験しているだけでだいぶ違うと感じました。まだまだディティールは甘い部分が多いので、その内改善しようと思います。
+              ライブラリが多くC++よりも簡単に複雑なことが出来たので、製作が楽しかったです。
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+            </div>
+          </div>
+          <div class="illust">
+          画像はクリックで拡大できます
+            <!-- Fullscreen Image Container -->
+            <a href="item/works/minesweeper/desc.png" data-lightbox="group">
+              <img class="pp-item" src="item/works/minesweeper/desc.png">
+            </a>
+            <br>
+            図：プレイ画面
+            <br>
+            <br>
+            <div id="action-aski">
+              <a class="video-link" href="https://drive.google.com/file/d/1EFvNo2QLNWYeBUVGcVl0ZbGOHnHyc-8Z/view?usp=sharing">動画：実際の動作の様子</a>
+              <br>
+            </div>
+          </div>
+      </div>
+
+      <!-- モーダル本体 -->
+      <div id="kosensai3" class="modal">
+        <a class="close" onclick="closeModal('kosensai3')" href="#_">&times;</a>
+        <!-- 画像を選択 -->
+          <img class="pp-image" src="" alt="">
+          <div class="pp-title">
+            <h2>３年次の高専祭で展示するために作成した１V１ラジコンバトルゲームです!</h2>
+          </div>
+          <div class="pp-duration">
+            製作期間：2022/08～2022/10末<br>
+          </div>
+          <div class="pp-role">
+            メンバー：有志数人　役割：配線、組み立て
+          </div>
+          <div class="pp-content">
+            <div class="outline-title">プロダクトの概要</div>
+            <div class="outline">
+              ３年次の高専祭で、技術系の部活に所属していない人が集まって制作しました。
+              チーム全体で、製作したのは以下の三つです。具体的な様子は右の動画からご覧になって頂けると幸いです。
+              <ol>
+                <li>闘わせるラジコン２機</li>
+                <li>ラジコンを操作するコントローラー２台(右図参照)</li>
+                <li>ボタンが押されたら光るステージ</li>
+              </ol>
+
+              このゲームの仕様は以下の通りです。
+              <ul>
+                <li>2人が対戦し、1人1機のラジコンを操作する</li>
+                <li>３×３マスの陣地をラジコンで取り合う</li>
+                <li>壁に取り付けられた９×２個のボタンのうち、自分の色のボタンに突撃してスイッチを押す</li>
+                <li>スイッチが押されると、ボタンの色にステージが光る</li>
+                <li>制限時間が来るか、一色に染まるまでボタンを押しまくる</li>
+                <li>制限時間が来た時、より多くのライトを光らせた方が勝利</li>
+              </ul>
+            </div>
+
+            <br>
+            <div class="feature-title">活動を通して</div>
+            <div class="feature">
+              配線は全く経験がなく、ほとんど周りの人に聞きながら作業をしていました。当時は何をやっているのかさっぱりわかっていなかったですが、
+              最近の授業でようやく何をやっていたのか理解できて、何とも言えない感動がありました。
+              分からないことばかりで失敗もたくさんありましたが、みんなでワイワイやりながら制作していたので楽しかったです！
+              流石に前日まで完成しなかったときはヒヤッとしましたが、なんとか間に合ったのでホッとしました。
+            </div>
           </div>
           <div class="illust">
             <div class="pp-item">
@@ -458,716 +649,138 @@
             </div>
 
             <!-- Fullscreen Image Container -->
-            <div id="kisoken-system">
-              <a href="item/works/kisoken/システム構成.png" data-lightbox="group">
-                <img class="pp-item" src="item/works/kisoken/システム構成.png">
-              </a>
-              <br>
-              図１：全体のシステム構成
-            </div>
-            <br>
             <div id="action-aski">
-              <video  preload="none" class="pp-item" controls src="item/works/kisoken/lastmove.mp4"></video><br>
-              動画：注文から提供までの様子<br>
-            </div>
-            <br>
-            <div id="entire-flow">
-              <a href="item/works/kisoken/zentai.png" data-lightbox="group">
-                <img class="pp-item" src="item/works/kisoken/zentai.png">
-              </a>
+              <a class="video-link" href="https://drive.google.com/file/d/1YjWoPCLFyQMcAOu1zw8UCqxUieGboDW0/view?usp=sharing">動画：実際にプレイしている様子</a>
               <br>
-              図２：制作したシステム全体のフローチャート<br>
             </div>
+            <!-- Fullscreen Image Container -->
+            <a href="item/works/kosensai3/controler.jpg" data-lightbox="group">
+              <img class="pp-item" src="item/works/kosensai3/controler.jpg">
+            </a>
             <br>
-            <div id="kisoken-database">
-              <a href="item/works/kisoken/database.png" data-lightbox="group">
-                <img class="pp-item" src="item/works/kisoken/database.png">
-              </a>
-              <br>
-              図３：実際に使用したデータベースの画面<br>
-            </div>
             <br>
+            図：作成したコントローラー<br>（見にくくて申し訳ございません）
+          </div>
+      </div>
+
+      <!-- モーダル本体 -->
+      <div id="hakkason2023" class="modal">
+        <a class="close" onclick="closeModal('hakkason2023')" href="#_">&times;</a>
+        <!-- 画像を選択 -->
+        <img class="pp-image" src="" alt="">
+        <div class="pp-title">
+          <h2>DjangoとStable Diffusion APIを使用したウェブサイトの開発</h2>
+        </div>
+        <div class="pp-duration">
+          2023/08～2023/09末　夏休みに累計114時間
+        </div>
+        <div class="pp-role">
+          メンバー：３人　役割：リーダー、Image To Imageの実装
+        </div>
+        <div class="pp-link">
+          <!-- <a class="works-url-link" href="https://github.com/tomatoboy-hub/generative-ai/tree/main/100pro" target="_blank">リンク：GitHub</a>（プログラムは結合済み） -->
+          リンクはメンバーに掲載の許可を取っている最中です。申しわけございません！
+        </div>          
+        <div class="pp-content">
+          <div class="outline-title">プロダクトの概要</div>
+          <div class="outline">
+            初めてハッカソンに参加し、DjangoとStable Diffusion APIを使用したウェブサイトを開発しました。
+            参加したハッカソン（100program）のリンクはこちらです。
+            <a class="works-url-link" href="https://100program.jp/">リンク：100program公式サイト</a>
+            もともと私が画像生成AIに興味があったため、今回の制作に至りました。
+            最終日に発表したときのスライドのリンクおよび動作の様子は右に掲載しています。
+            
+          </div>
+          <br>
+          <div class="feature-title">活動を通して</div>
+          <div class="feature">
+            -初めてのハッカソンを通して-<br>
+            一番大変だったのはスケジュール管理でした。メンバーがそれぞれ大阪、愛知、東京にいたため連絡の取りづらさであったり、進捗の共有であったりが大変でした。
+            最終的に<a class="works-url-link" href="https://github.com/users/tomatoboy-hub/projects/2/views/1">GithubのProjects</a>や週１，２回のミーティングをしていました。
+            テレワークの時代とは言え、離れた場所で一緒にモノづくりをすることは大変なことが多いと改めて感じました。
+            また、メンバーにハッカソンの経験者がいらっしゃったので、色々と助けてもらっていました。Githubの具体的な使い方やプロジェクトの進め方など、学べたことが多かったです。
+            <br>
+            <br>
+            -画像生成AIについて-<br>
+            私は趣味でイラストを描いているため、下書きをしたり、あるいは線画をしてもらったりという事に活用したく、今回のプロジェクトのテーマに選択しました。
+            実際に使ってみて、精度の高さを実感できました。目的はプロンプトから生成したイラストをImage To Imageでブラッシュアップするという事だったので、そこまでは
+            達成できてよかったです。しかし、まだまだ調整が甘いせいで画像生成の精度が悪かったので、そこは課題として残ってしまったと感じています。
+          </div>        
+        </div>
+        <div class="illust">
+          <div class="pp-item">
+            画像はクリックで拡大できます<br><br>
+          </div>
+
+          <!-- Fullscreen Image Container -->
+          <div id="action-canva-link">
+            <!-- <a class="works-url-link" href="https://www.canva.com/design/DAFubQms7YY/KQHb4lwTvKdGYgir9ghuiQ/view?utm_content=DAFubQms7YY&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel#24">リンク：Canvaで作成したスライド</a> -->
+          </div>
+          <div id="action-2d">
+            <a class="video-link" href="https://drive.google.com/file/d/1G8FyXh5lCkCFCxhKVTJRPrd2usq5-n8Q/view?usp=sharing">動画：実際の動作の様子</a>
           </div>
         </div>
+      </div>
 
-        <!-- モーダル本体 -->
-        <div id="minesweeper" class="modal">
-          <a class="close" onclick="closeModal('minesweeper')" href="#_">&times;</a>
-          <!-- 画像を選択 -->
-            <img class="pp-image" src="" alt="">
-            <div class="pp-title">
-              <h2>Pythonで作成したミニゲーム　～MineSweeper～</h2>
-            </div>
-            <div class="pp-duration">
-              製作期間：約１５時間
-            </div>
-            <div class="pp-role">
-              メンバー：個人製作
-            </div>
-            <div class="pp-link">
-              <a class="works-url-link" href="https://github.com/shim-bei/mini-game/tree/main/python" target="_blank">リンク：GitHub</a>
-            </div>          
-            <div class="pp-content">
-              <div class="outline-title">プロダクトの概要</div>
-              <div class="outline">
-                授業の実験実習で「PythonのTkinterを用いてなにか作ってみよう。」というテーマで、このゲームを制作しました。
-                設定は「地雷探知機が5×5マスの中から地雷を探し出す」というものです。
-                このゲームの仕様は以下の通りです。
-                <ul>
-                  <li>プレイヤーの操作はTkinterの入力ボックス（右図の青丸の部分）から
-                    「a」・「d」・「w」・「s」を入力しEnterキーを押すと、それぞれ左・右・上・下の移動を行う。</li>
-                  <li>「距離を測る」と書かれたボタンを押すことで地雷との距離を測定する</li>
-                  <li>「地雷をCrash！」と書かれたボタンを押すことで地雷が現在の座標にあるかを確認する</li>
-                  <li>地雷の上で「地雷をCrash！」ボタンを押したらクリア！</li>
-                  <li>右上の制限時間が０になると強制的にWindowを終了され、ゲームオーバー！</li>
-                </ul>
-              </div>
-
-              <br>
-              <div class="feature-title">活動を通して</div>
-              <div class="feature">
-                Pythonを使って制作するのはこれが初めてでしたが、C++を経験していたのと、ゲーム制作を一度経験していたので、難なく制作することが出来ました。
-                一度経験しているだけでだいぶ違うと感じました。まだまだディティールは甘い部分が多いので、その内改善しようと思います。
-                ライブラリが多くC++よりも簡単に複雑なことが出来たので、製作が楽しかったです。
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-              </div>
-            </div>
-            <div class="illust">
-            画像はクリックで拡大できます
-              <!-- Fullscreen Image Container -->
-              <a href="item/works/minesweeper/desc.png" data-lightbox="group">
-                <img class="pp-item" src="item/works/minesweeper/desc.png">
-              </a>
-              <br>
-              図：プレイ画面
-              <br>
-              <br>
-              <div id="action-aski">
-                <video  preload="none" class="pp-item" controls src="item/works/minesweeper/minecrash_OK.mp4"></video><br>
-                動画：実際の動作の様子<br>
-              </div>
-            </div>
-        </div>
-
-        <!-- モーダル本体 -->
-        <div id="kosensai3" class="modal">
-          <a class="close" onclick="closeModal('kosensai3')" href="#_">&times;</a>
-          <!-- 画像を選択 -->
-            <img class="pp-image" src="" alt="">
-            <div class="pp-title">
-              <h2>３年次の高専祭で展示するために作成した１V１ラジコンバトルゲームです!</h2>
-            </div>
-            <div class="pp-duration">
-              製作期間：2022/08～2022/10末<br>
-            </div>
-            <div class="pp-role">
-              メンバー：有志数人　役割：配線、組み立て
-            </div>
-            <div class="pp-content">
-              <div class="outline-title">プロダクトの概要</div>
-              <div class="outline">
-                ３年次の高専祭で、技術系の部活に所属していない人が集まって制作しました。
-                チーム全体で、製作したのは以下の三つです。具体的な様子は右の動画からご覧になって頂けると幸いです。
-                <ol>
-                  <li>闘わせるラジコン２機</li>
-                  <li>ラジコンを操作するコントローラー２台(右図参照)</li>
-                  <li>ボタンが押されたら光るステージ</li>
-                </ol>
-
-                このゲームの仕様は以下の通りです。
-                <ul>
-                  <li>2人が対戦し、1人1機のラジコンを操作する</li>
-                  <li>３×３マスの陣地をラジコンで取り合う</li>
-                  <li>壁に取り付けられた９×２個のボタンのうち、自分の色のボタンに突撃してスイッチを押す</li>
-                  <li>スイッチが押されると、ボタンの色にステージが光る</li>
-                  <li>制限時間が来るか、一色に染まるまでボタンを押しまくる</li>
-                  <li>制限時間が来た時、より多くのライトを光らせた方が勝利</li>
-                </ul>
-              </div>
-
-              <br>
-              <div class="feature-title">活動を通して</div>
-              <div class="feature">
-                配線は全く経験がなく、ほとんど周りの人に聞きながら作業をしていました。当時は何をやっているのかさっぱりわかっていなかったですが、
-                最近の授業でようやく何をやっていたのか理解できて、何とも言えない感動がありました。
-                分からないことばかりで失敗もたくさんありましたが、みんなでワイワイやりながら制作していたので楽しかったです！
-                流石に前日まで完成しなかったときはヒヤッとしましたが、なんとか間に合ったのでホッとしました。
-              </div>
-            </div>
-            <div class="illust">
-              <div class="pp-item">
-                画像はクリックで拡大できます<br><br>
-              </div>
-
-              <!-- Fullscreen Image Container -->
-              <div id="action-aski">
-                <video  preload="none" class="pp-item" controls src="item/works/kosensai3/kosensai_OK.mp4"></video><br>
-                動画：実際にプレイしている様子<br>
-              </div>
-              <!-- Fullscreen Image Container -->
-              <a href="item/works/kosensai3/controler.jpg" data-lightbox="group">
-                <img class="pp-item" src="item/works/kosensai3/controler.jpg">
-              </a>
-              <br>
-              <br>
-              図：作成したコントローラー<br>（見にくくて申し訳ございません）
-            </div>
-        </div>
-
-        <!-- モーダル本体 -->
-        <div id="hakkason2023" class="modal">
-          <a class="close" onclick="closeModal('hakkason2023')" href="#_">&times;</a>
-          <!-- 画像を選択 -->
+      <!-- モーダル本体 -->
+      <div id="scrolegame" class="modal">
+        <a class="close" onclick="closeModal('scrolegame')" href="#_">&times;</a>
           <img class="pp-image" src="" alt="">
           <div class="pp-title">
-            <h2>DjangoとStable Diffusion APIを使用したウェブサイトの開発</h2>
+            <h2>DXライブラリを用いたアクションゲーム</h2>
           </div>
           <div class="pp-duration">
-            2023/08～2023/09末　夏休みに累計114時間
+            製作期間：2022/08～2023/02　授業時間（２時間/週） + 放課後（累計約40時間）
           </div>
           <div class="pp-role">
-            メンバー：３人　役割：リーダー、Image To Imageの実装
+            メンバー：個人製作
           </div>
           <div class="pp-link">
-            <!-- <a class="works-url-link" href="https://github.com/tomatoboy-hub/generative-ai/tree/main/100pro" target="_blank">リンク：GitHub</a>（プログラムは結合済み） -->
-            リンクはメンバーに掲載の許可を取っている最中です。申しわけございません！
+            <a class="works-url-link" href="https://github.com/shim-bei/mini-game/tree/main/c%2B%2B" target="_blank">リンク：GitHub</a>
           </div>          
           <div class="pp-content">
             <div class="outline-title">プロダクトの概要</div>
             <div class="outline">
-              初めてハッカソンに参加し、DjangoとStable Diffusion APIを使用したウェブサイトを開発しました。
-              参加したハッカソン（100program）のリンクはこちらです。
-              <a class="works-url-link" href="https://100program.jp/">リンク：100program公式サイト</a>
-              もともと私が画像生成AIに興味があったため、今回の制作に至りました。
-              最終日に発表したときのスライドのリンクおよび動作の様子は右に掲載しています。
-              
+              ゲーム制作に興味があったので作成しました。
+              横スクロール型のアクションゲームで、最初はアスキーアートで制作しました。実際の動作の様子が上の動画です。
+              アスキーアートで大体の仕組みを設計してから、DXライブラリ（※）を用いて２Dイラストを用いたゲームを制作しました。
+              <br>※DXライブラリ：公開されているゲーム制作用のC++向けのライブラリ。DirectXの要素を比較的簡単に組み込むことが出来る。
             </div>
+
             <br>
             <div class="feature-title">活動を通して</div>
             <div class="feature">
-              -初めてのハッカソンを通して-<br>
-              一番大変だったのはスケジュール管理でした。メンバーがそれぞれ大阪、愛知、東京にいたため連絡の取りづらさであったり、進捗の共有であったりが大変でした。
-              最終的に<a class="works-url-link" href="https://github.com/users/tomatoboy-hub/projects/2/views/1">GithubのProjects</a>や週１，２回のミーティングをしていました。
-              テレワークの時代とは言え、離れた場所で一緒にモノづくりをすることは大変なことが多いと改めて感じました。
-              また、メンバーにハッカソンの経験者がいらっしゃったので、色々と助けてもらっていました。Githubの具体的な使い方やプロジェクトの進め方など、学べたことが多かったです。
+              初めてのモノづくりで、わからないことや慣れないことが多く制作が嫌になることもあったが、その分完成した時の嬉しさはとても大きかったです。
+              これを機にモノづくりをどんどんやりたいと思いました。
+              ChatGPTが丁度出てきたころで、タイミングよくAIの力を借りれたのは運がよく、とても助かりました。
               <br>
               <br>
-              -画像生成AIについて-<br>
-              私は趣味でイラストを描いているため、下書きをしたり、あるいは線画をしてもらったりという事に活用したく、今回のプロジェクトのテーマに選択しました。
-              実際に使ってみて、精度の高さを実感できました。目的はプロンプトから生成したイラストをImage To Imageでブラッシュアップするという事だったので、そこまでは
-              達成できてよかったです。しかし、まだまだ調整が甘いせいで画像生成の精度が悪かったので、そこは課題として残ってしまったと感じています。
-            </div>        
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+            </div>
           </div>
           <div class="illust">
             <div class="pp-item">
-              画像はクリックで拡大できます<br><br>
+                画像はクリックで拡大できます<br><br>
             </div>
-
             <!-- Fullscreen Image Container -->
-            <div id="action-canva-link">
-              <!-- <a class="works-url-link" href="https://www.canva.com/design/DAFubQms7YY/KQHb4lwTvKdGYgir9ghuiQ/view?utm_content=DAFubQms7YY&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel#24">リンク：Canvaで作成したスライド</a> -->
+            <div id="action-aski">
+              <a class="video-link" href="https://drive.google.com/file/d/1BpZYGYZUTZIyAF1HVG1EJDtI8OEEnoAN/view?usp=sharing">動画１：最初に作成したアスキー版のゲーム</a>
+              <br><br>
             </div>
             <div id="action-2d">
-              <video  preload="none" class="pp-item" controls src="item/works/hakkason2023/last_generate.mp4"></video><br>
-              動画：実際の動作の様子
+              <a class="video-link" href="https://drive.google.com/file/d/1pQ9kCKn1GBn0NOtPdIjn2oBmCjIJookC/view?usp=sharing">動画２：アスキー版をもとに作成した２Dアクションゲーム
+              </a>
             </div>
           </div>
-        </div>
-
-        <!-- モーダル本体 -->
-        <div id="scrolegame" class="modal">
-          <a class="close" onclick="closeModal('scrolegame')" href="#_">&times;</a>
-            <img class="pp-image" src="" alt="">
-            <div class="pp-title">
-              <h2>DXライブラリを用いたアクションゲーム</h2>
-            </div>
-            <div class="pp-duration">
-              製作期間：2022/08～2023/02　授業時間（２時間/週） + 放課後（累計約40時間）
-            </div>
-            <div class="pp-role">
-              メンバー：個人製作
-            </div>
-            <div class="pp-link">
-              <a class="works-url-link" href="https://github.com/shim-bei/mini-game/tree/main/c%2B%2B" target="_blank">リンク：GitHub</a>
-            </div>          
-            <div class="pp-content">
-              <div class="outline-title">プロダクトの概要</div>
-              <div class="outline">
-                ゲーム制作に興味があったので作成しました。
-                横スクロール型のアクションゲームで、最初はアスキーアートで制作しました。実際の動作の様子が上の動画です。
-                アスキーアートで大体の仕組みを設計してから、DXライブラリ（※）を用いて２Dイラストを用いたゲームを制作しました。
-                <br>※DXライブラリ：公開されているゲーム制作用のC++向けのライブラリ。DirectXの要素を比較的簡単に組み込むことが出来る。
-              </div>
-
-              <br>
-              <div class="feature-title">活動を通して</div>
-              <div class="feature">
-                初めてのモノづくりで、わからないことや慣れないことが多く制作が嫌になることもあったが、その分完成した時の嬉しさはとても大きかったです。
-                これを機にモノづくりをどんどんやりたいと思いました。
-                ChatGPTが丁度出てきたころで、タイミングよくAIの力を借りれたのは運がよく、とても助かりました。
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-              </div>
-            </div>
-            <div class="illust">
-              <div class="pp-item">
-                  画像はクリックで拡大できます<br><br>
-              </div>
-              <!-- Fullscreen Image Container -->
-              <div id="action-aski">
-                <video  preload="none" class="pp-item" controls src="item/works/action/marioasuki-.mp4"></video><br>
-                動画１：最初に作成したアスキー版のゲーム<br><br>
-              </div>
-              <div id="action-2d">
-                <video  preload="none" class="pp-item" controls href="https://drive.google.com/file/d/1pQ9kCKn1GBn0NOtPdIjn2oBmCjIJookC/view?usp=drive_link"></video><br>
-                動画２：アスキー版をもとに作成した２Dアクションゲーム
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="min-window">
-          <!-- モーダル本体 -->
-          <div id="portfolio" class="modal">
-            <a class="close" onclick="closeModal('portfolio')" href="#_">&times;</a>
-              <!-- 画像を選択 -->
-              <img class="pp-image" src="" alt="">
-              <div class="pp-title">
-                <h2>ポートフォリオ</h2>
-              </div>
-              <div class="pp-duration">
-                製作期間：30時間
-              </div>
-              <div class="pp-role">
-                メンバー：個人製作
-              </div>
-              <div class="pp-link">
-                <a class="works-url-link" href="https://github.com/shim-bei/MyProf_kitano" target="_blank">リンク：GitHub</a>
-              </div>                        
-              <div class="pp-content">
-                <div class="outline">
-                  <div class="outline-title">プロダクトの概要</div>
-                  就職活動を含め、自己紹介をしやすくするために制作しました。WORKSの中身は特に力を入れたので、御覧になって頂けて嬉しいです！
-                  僕がどんなことをしてきて、どんなことを学んできたのかが伝わるようにと思って制作しました。
-                  スマホにも一応対応しましたが、パソコンでのほうが見やすいので、パソコンでご覧になって頂けると幸いです。
-                  半年前にも制作していたので、もしよければご覧になって下さい。<br>
-                  <a class="works-url-link" href="http://sushin.php.xdomain.jp/Info_Kitano.html">リンク：2023年5月に制作したホームページ</a>
-                </div>
-
-                <br>
-                <div class="feature-title">活動を通して</div>
-                <div class="feature">
-                  半年前に一度作ったのですが今思うと「色使いだったり見やすさだったり分かりやすさだったり、良くないな」と思います。
-                  これが見やすいかはわかりませんが、間違いなく成長はしていると実感できました。
-                  今後とも継続して努力していこうと思います。
-                  
-                </div>          
-              </div>
-              
-              <div class="illust">
-                <div class="pp-item">
-                  画像はクリックで拡大できます<br><br>
-                </div>
-              </div>
-          </div>
-
-          <!-- モーダル本体 -->
-          <div id="sotsugyokenkyu" class="modal">
-            <a class="close" onclick="closeModal('sotsugyokenkyu')" href="#_">&times;</a>
-            <!-- 画像を選択 -->
-              <img class="pp-image" src="" alt="">
-              <div class="pp-title">
-                <h2>卒業研究</h2>
-              </div>
-              <div class="pp-duration">
-                2023/11～2025/02
-              </div>
-              <div class="pp-role">
-                メンバー：個人製作　役割：ROSを用いたプログラム制御
-              </div>
-              <div class="pp-link">
-                <!-- <a class="works-url-link" href="https://github.com/" target="_blank">リンク：GitHub</a> -->
-              </div>
-              <div class="pp-content">
-                <div class="outline-title">プロダクトの概要</div>
-                <div class="outline">
-                  これから頑張ります！
-                  <!-- WEB注文システム：説明、フローチャート、動作動画、リンク -->
-                  <!-- ロボット制御：説明、フローチャート、動作動画 -->
-                  <!-- 自作した機械の制御：説明、フローチャート、動作動画 -->
-                </div>
-                
-                <div class="feature-title">活動を通して</div>  
-                <div class="feature">
-                  これから頑張ります！
-                </div>
-              </div>
-              <div class="illust">
-                <div class="pp-item">
-                  画像はクリックで拡大できます<br><br>
-                </div>
-
-                <!-- Fullscreen Image Container -->
-                <div id="action-aski">
-                  <!-- <video  preload="none" class="pp-item" controls src="item/works/action/marioasuki-.mp4"></video><br>
-                  動画１：最初に作成したアスキー版のゲーム<br>
-                </div>
-                <div id="action-2d">
-                  <video  preload="none" class="pp-item" controls src="item/works/action/2D_last.mp4"></video><br>
-                  動画２：アスキー版をもとに作成した２Dアクションゲーム -->
-                </div>
-              </div>
-          </div>
-
-          <!-- モーダル本体 -->
-          <div id="kisokenkyu" class="modal">
-            <a class="close" onclick="closeModal('kisokenkyu')" href="#_">&times;</a>
-            <!-- 画像を選択 -->
-            <img class="pp-image" src="" alt="">
-            <div class="pp-title">
-              <h2>回転寿司のDX化</h2>
-            </div>
-            <div class="pp-duration">
-              2023/04～2023/10　授業時間（２時間/週） + 放課後（累計約100時間）
-            </div>
-            <div class="pp-role">
-              メンバー：５人　役割：リーダー、機械制御、注文・通信システム
-            </div>
-            <div class="pp-link">
-              <a class="works-url-link" href="https://github.com/shim-bei/kisokenkyu" target="_blank">リンク：GitHub</a>
-            </div>          
-            <div class="pp-content">
-              <div class="outline-title">プロダクトの概要</div>
-              <div class="outline">
-                学校の授業で「風評被害に遭った回転寿司店のDX化を図ろう」というテーマのもと、５人チームで取り組みました。
-                授業の概要および制作物は以下のパワーポイント、もしくは当日掲載した<a class="works-url-link" href="item/works/kisoken/D班_ポスター.pdf" target="_blank">ポスター</a>
-                をご覧になって頂けると分かりやすいかと思います。<br>
-                <iframe src="https://onedrive.live.com/embed?resid=8317401A02AA3648%21417&amp;authkey=!AHYSkkLnidsqB-A&amp;em=2&amp;wdAr=1.7767857142857142" width="700px" height="400px" frameborder="0"></iframe>
-                <br>説明用のパワーポイント
-                <br><br>
-
-                制作物の中で、私が担当したのは「WEB注文システムの構築」、「それに基づいた既製品のロボット制御」、「自作した機械の制御」および「チームリーダー」です。
-                <ul>
-                  <li>WEB注文システム：スマートフォンで注文し、Pythonで注文データを処理するようにしました。
-                  右に記載した、図2のフローチャート、動作動画および<a class="works-url-link" href="http://sushin.php.xdomain.jp/sushi/home.html" target="_blank">こちらのリンク</a>から制作したWEBページをご覧ください。<br>
-                  （WEBページのレイアウトはスマートフォンのみに対応しています）</li>
-                  <li>ロボット制御：Dobotという既製品のロボットハンドの位置制御を行いました。
-                  <li>自作した機械の制御：Dobotの動きに同期して、メンバーが制作したハンドをBlueTooth通信で制御しました。
-                </ul>
-              </div>
-
-              <br>
-              <div class="feature-title">活動を通して</div>
-              <div class="feature">
-                -リーダー経験を通じて-<br>
-                リーダーをしているからか、チームでモノづくりをするのがとても難しいと感じました。
-                アイデア出しから進捗の共有やタスクの分散、動作実験のトライアンドエラーなど、一人でやっていたら経験しなかった問題がたくさんあり、大変でした。
-                しかし、機械が出来て進捗が出た時などはみんなと喜びを共有できるのがとてもやりがいがありました。
-                また、出来ることが増えるので上手くできればとても効率よくモノづくりをすすめられると感じました。
-                お互いに進捗を出さないと迷惑をかけたり、メンバーが頑張っているからやる気が出たり、プラスに働く要素がとても多かったです。
-                
-                <br><br>
-                -注文システムを作成して-<br>
-                これを機にWEB制作を始めたので、無料のレンタルサーバーを契約して、データベースを作って保存して、
-                クエリに苦戦して、PHPに挑戦して、WEBページ制作を１から始めてと、とてもやることが多かったです。
-                最初はPythonで直接レンタルサーバーのおかげで使えたデーターベースからデータを取り出そうとしていたが、無料のサーバーなので出来なかったのでだいぶ困りました。
-                結局いろんな人に聞いたりネットで調べたりした結果、PHPでデータをWEB上においてからPythonでそのページにアクセスするという方法にしました。
-                今思うと、データの脆弱性など問題がある方法をとってしまったと反省している。やはり有料のモノを使う方が便利な点が多いと感じました。
-              </div>        
-            </div>
-            <div class="illust">
-              <div class="pp-item">
-                画像はクリックで拡大できます<br><br>
-              </div>
-
-              <!-- Fullscreen Image Container -->
-              <div id="kisoken-system">
-                <a href="item/works/kisoken/システム構成.png" data-lightbox="group">
-                  <img class="pp-item" src="item/works/kisoken/システム構成.png">
-                </a>
-                <br>
-                図１：全体のシステム構成
-              </div>
-              <br>
-              <div id="action-aski">
-                <video  preload="none" class="pp-item" controls src="item/works/kisoken/lastmove.mp4"></video><br>
-                動画：注文から提供までの様子<br>
-              </div>
-              <br>
-              <div id="entire-flow">
-                <a href="item/works/kisoken/zentai.png" data-lightbox="group">
-                  <img class="pp-item" src="item/works/kisoken/zentai.png">
-                </a>
-                <br>
-                図２：制作したシステム全体のフローチャート<br>
-              </div>
-              <br>
-              <div id="kisoken-database">
-                <a href="item/works/kisoken/database.png" data-lightbox="group">
-                  <img class="pp-item" src="item/works/kisoken/database.png">
-                </a>
-                <br>
-                図３：実際に使用したデータベースの画面<br>
-              </div>
-              <br>
-            </div>
-          </div>
-
-          <!-- モーダル本体 -->
-          <div id="minesweeper" class="modal">
-            <a class="close" onclick="closeModal('minesweeper')" href="#_">&times;</a>
-            <!-- 画像を選択 -->
-              <img class="pp-image" src="" alt="">
-              <div class="pp-title">
-                <h2>Pythonで作成したミニゲーム　～MineSweeper～</h2>
-              </div>
-              <div class="pp-duration">
-                製作期間：約１５時間
-              </div>
-              <div class="pp-role">
-                メンバー：個人製作
-              </div>
-              <div class="pp-link">
-                <a class="works-url-link" href="https://github.com/shim-bei/mini-game/tree/main/python" target="_blank">リンク：GitHub</a>
-              </div>          
-              <div class="pp-content">
-                <div class="outline-title">プロダクトの概要</div>
-                <div class="outline">
-                  授業の実験実習で「PythonのTkinterを用いてなにか作ってみよう。」というテーマで、このゲームを制作しました。
-                  設定は「地雷探知機が5×5マスの中から地雷を探し出す」というものです。
-                  このゲームの仕様は以下の通りです。
-                  <ul>
-                    <li>プレイヤーの操作はTkinterの入力ボックス（右図の青丸の部分）から
-                      「a」・「d」・「w」・「s」を入力しEnterキーを押すと、それぞれ左・右・上・下の移動を行う。</li>
-                    <li>「距離を測る」と書かれたボタンを押すことで地雷との距離を測定する</li>
-                    <li>「地雷をCrash！」と書かれたボタンを押すことで地雷が現在の座標にあるかを確認する</li>
-                    <li>地雷の上で「地雷をCrash！」ボタンを押したらクリア！</li>
-                    <li>右上の制限時間が０になると強制的にWindowを終了され、ゲームオーバー！</li>
-                  </ul>
-                </div>
-
-                <br>
-                <div class="feature-title">活動を通して</div>
-                <div class="feature">
-                  Pythonを使って制作するのはこれが初めてでしたが、C++を経験していたのと、ゲーム制作を一度経験していたので、難なく制作することが出来ました。
-                  一度経験しているだけでだいぶ違うと感じました。まだまだディティールは甘い部分が多いので、その内改善しようと思います。
-                  ライブラリが多くC++よりも簡単に複雑なことが出来たので、製作が楽しかったです。
-                  <br>
-                  <br>
-                  <br>
-                  <br>
-                  <br>
-                </div>
-              </div>
-              <div class="illust">
-              画像はクリックで拡大できます
-                <!-- Fullscreen Image Container -->
-                <a href="item/works/minesweeper/desc.png" data-lightbox="group">
-                  <img class="pp-item" src="item/works/minesweeper/desc.png">
-                </a>
-                <br>
-                図：プレイ画面
-                <br>
-                <br>
-                <div id="action-aski">
-                  <video  preload="none" class="pp-item" controls src="item/works/minesweeper/minecrash_OK.mp4"></video><br>
-                  動画：実際の動作の様子<br>
-                </div>
-              </div>
-          </div>
-
-          <!-- モーダル本体 -->
-          <div id="kosensai3" class="modal">
-            <a class="close" onclick="closeModal('kosensai3')" href="#_">&times;</a>
-            <!-- 画像を選択 -->
-              <img class="pp-image" src="" alt="">
-              <div class="pp-title">
-                <h2>３年次の高専祭で展示するために作成した１V１ラジコンバトルゲームです!</h2>
-              </div>
-              <div class="pp-duration">
-                製作期間：2022/08～2022/10末<br>
-              </div>
-              <div class="pp-role">
-                メンバー：有志数人　役割：配線、組み立て
-              </div>
-              <div class="pp-content">
-                <div class="outline-title">プロダクトの概要</div>
-                <div class="outline">
-                  ３年次の高専祭で、技術系の部活に所属していない人が集まって制作しました。
-                  チーム全体で、製作したのは以下の三つです。具体的な様子は右の動画からご覧になって頂けると幸いです。
-                  <ol>
-                    <li>闘わせるラジコン２機</li>
-                    <li>ラジコンを操作するコントローラー２台(右図参照)</li>
-                    <li>ボタンが押されたら光るステージ</li>
-                  </ol>
-
-                  このゲームの仕様は以下の通りです。
-                  <ul>
-                    <li>2人が対戦し、1人1機のラジコンを操作する</li>
-                    <li>３×３マスの陣地をラジコンで取り合う</li>
-                    <li>壁に取り付けられた９×２個のボタンのうち、自分の色のボタンに突撃してスイッチを押す</li>
-                    <li>スイッチが押されると、ボタンの色にステージが光る</li>
-                    <li>制限時間が来るか、一色に染まるまでボタンを押しまくる</li>
-                    <li>制限時間が来た時、より多くのライトを光らせた方が勝利</li>
-                  </ul>
-                </div>
-
-                <br>
-                <div class="feature-title">活動を通して</div>
-                <div class="feature">
-                  配線は全く経験がなく、ほとんど周りの人に聞きながら作業をしていました。当時は何をやっているのかさっぱりわかっていなかったですが、
-                  最近の授業でようやく何をやっていたのか理解できて、何とも言えない感動がありました。
-                  分からないことばかりで失敗もたくさんありましたが、みんなでワイワイやりながら制作していたので楽しかったです！
-                  流石に前日まで完成しなかったときはヒヤッとしましたが、なんとか間に合ったのでホッとしました。
-                </div>
-              </div>
-              <div class="illust">
-                <div class="pp-item">
-                  画像はクリックで拡大できます<br><br>
-                </div>
-
-                <!-- Fullscreen Image Container -->
-                <div id="action-aski">
-                  <video  preload="none" class="pp-item" controls src="item/works/kosensai3/kosensai_OK.mp4"></video><br>
-                  動画：実際にプレイしている様子<br>
-                </div>
-                <!-- Fullscreen Image Container -->
-                <a href="item/works/kosensai3/controler.jpg" data-lightbox="group">
-                  <img class="pp-item" src="item/works/kosensai3/controler.jpg">
-                </a>
-                <br>
-                <br>
-                図：作成したコントローラー<br>（見にくくて申し訳ございません）
-              </div>
-          </div>
-
-          <!-- モーダル本体 -->
-          <div id="hakkason2023" class="modal">
-            <a class="close" onclick="closeModal('hakkason2023')" href="#_">&times;</a>
-            <!-- 画像を選択 -->
-            <img class="pp-image" src="" alt="">
-            <div class="pp-title">
-              <h2>DjangoとStable Diffusion APIを使用したウェブサイトの開発</h2>
-            </div>
-            <div class="pp-duration">
-              2023/08～2023/09末　夏休みに累計114時間
-            </div>
-            <div class="pp-role">
-              メンバー：３人　役割：リーダー、Image To Imageの実装
-            </div>
-            <div class="pp-link">
-              <!-- <a class="works-url-link" href="https://github.com/tomatoboy-hub/generative-ai/tree/main/100pro" target="_blank">リンク：GitHub</a>（プログラムは結合済み） -->
-              リンクはメンバーに掲載の許可を取っている最中です。申しわけございません！
-            </div>          
-            <div class="pp-content">
-              <div class="outline-title">プロダクトの概要</div>
-              <div class="outline">
-                初めてハッカソンに参加し、DjangoとStable Diffusion APIを使用したウェブサイトを開発しました。
-                参加したハッカソン（100program）のリンクはこちらです。
-                <a class="works-url-link" href="https://100program.jp/">リンク：100program公式サイト</a>
-                もともと私が画像生成AIに興味があったため、今回の制作に至りました。
-                最終日に発表したときのスライドのリンクおよび動作の様子は右に掲載しています。
-                
-              </div>
-              <br>
-              <div class="feature-title">活動を通して</div>
-              <div class="feature">
-                -初めてのハッカソンを通して-<br>
-                一番大変だったのはスケジュール管理でした。メンバーがそれぞれ大阪、愛知、東京にいたため連絡の取りづらさであったり、進捗の共有であったりが大変でした。
-                最終的に<a class="works-url-link" href="https://github.com/users/tomatoboy-hub/projects/2/views/1">GithubのProjects</a>や週１，２回のミーティングをしていました。
-                テレワークの時代とは言え、離れた場所で一緒にモノづくりをすることは大変なことが多いと改めて感じました。
-                また、メンバーにハッカソンの経験者がいらっしゃったので、色々と助けてもらっていました。Githubの具体的な使い方やプロジェクトの進め方など、学べたことが多かったです。
-                <br>
-                <br>
-                -画像生成AIについて-<br>
-                私は趣味でイラストを描いているため、下書きをしたり、あるいは線画をしてもらったりという事に活用したく、今回のプロジェクトのテーマに選択しました。
-                実際に使ってみて、精度の高さを実感できました。目的はプロンプトから生成したイラストをImage To Imageでブラッシュアップするという事だったので、そこまでは
-                達成できてよかったです。しかし、まだまだ調整が甘いせいで画像生成の精度が悪かったので、そこは課題として残ってしまったと感じています。
-              </div>        
-            </div>
-            <div class="illust">
-              <div class="pp-item">
-                画像はクリックで拡大できます<br><br>
-              </div>
-
-              <!-- Fullscreen Image Container -->
-              <div id="action-canva-link">
-                <!-- <a class="works-url-link" href="https://www.canva.com/design/DAFubQms7YY/KQHb4lwTvKdGYgir9ghuiQ/view?utm_content=DAFubQms7YY&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel#24">リンク：Canvaで作成したスライド</a> -->
-              </div>
-              <div id="action-2d">
-                <video  preload="none" class="pp-item" controls src="item/works/hakkason2023/last_generate.mp4"></video><br>
-                動画：実際の動作の様子
-              </div>
-            </div>
-          </div>
-
-          <!-- モーダル本体 -->
-          <div id="scrolegame" class="modal">
-            <a class="close" onclick="closeModal('scrolegame')" href="#_">&times;</a>
-            <img class="pp-image" src="" alt="">
-            <div class="pp-title">
-              <h2>DXライブラリを用いたアクションゲーム</h2>
-            </div>
-            <div class="pp-duration">
-              製作期間：2022/08～2023/02　授業時間（２時間/週） + 放課後（累計約40時間）
-            </div>
-            <div class="pp-role">
-              メンバー：個人製作
-            </div>
-            <div class="pp-link">
-              <a class="works-url-link" href="https://github.com/shim-bei/mini-game/tree/main/c%2B%2B" target="_blank">リンク：GitHub</a>
-            </div>          
-            <div class="pp-content">
-              <div class="outline-title">プロダクトの概要</div>
-              <div class="outline">
-                ゲーム制作に興味があったので作成しました。
-                横スクロール型のアクションゲームで、最初はアスキーアートで制作しました。実際の動作の様子が上の動画です。
-                アスキーアートで大体の仕組みを設計してから、DXライブラリ（※）を用いて２Dイラストを用いたゲームを制作しました。
-                <br>※DXライブラリ：公開されているゲーム制作用のC++向けのライブラリ。DirectXの要素を比較的簡単に組み込むことが出来る。
-              </div>
-
-              <br>
-              <div class="feature-title">活動を通して</div>
-              <div class="feature">
-                初めてのモノづくりで、わからないことや慣れないことが多く制作が嫌になることもあったが、その分完成した時の嬉しさはとても大きかったです。
-                これを機にモノづくりをどんどんやりたいと思いました。
-                ChatGPTが丁度出てきたころで、タイミングよくAIの力を借りれたのは運がよく、とても助かりました。
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-              </div>
-            </div>
-            <div class="illust">
-              <div class="pp-item">
-                  画像はクリックで拡大できます<br><br>
-              </div>
-              <!-- Fullscreen Image Container -->
-              <div id="action-aski">
-                <video  preload="none" class="pp-item" controls src="item/works/action/marioasuki-.mp4"></video><br>
-                動画１：最初に作成したアスキー版のゲーム<br><br>
-              </div>
-              <div id="action-2d">
-                <video  preload="none" class="pp-item" controls href="https://drive.google.com/file/d/1pQ9kCKn1GBn0NOtPdIjn2oBmCjIJookC/view?usp=drive_link"></video><br>
-                動画２：アスキー版をもとに作成した２Dアクションゲーム
-              </div>
-            </div>
-          </div>            
-        </div>
+        </div>  
+      </div>
+      
+      
 
       <br>
       <!-- .works-secion -->
@@ -1339,5 +952,6 @@
 
   <script src="js/script.js"></script>
 
+  https://takeshiwada1980.github.io/Netwrok-Exp-2023/lecture01.html
 </body>
 </html>
