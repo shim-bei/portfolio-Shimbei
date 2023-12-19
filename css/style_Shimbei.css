@@ -618,6 +618,15 @@ nav {
   font-size: 25px;
   font-style: 8;
 }
+
+.video-link{
+  color: var(--insertcolor);
+}
+
+.video-link:hover{
+  color: var(--fullback);
+}
+
 /*--------------------------------
 コンタクトセクション
 ---------------------------------*/
@@ -974,8 +983,8 @@ nav {
     text-align: left;
   }
 
-  .over-window{
+  /* .over-window{
     display: none;
-  }
+  } */
   
 }  
