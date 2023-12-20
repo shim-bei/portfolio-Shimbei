@@ -257,20 +257,20 @@ nav {
 /*・左右交互に寄せる 
   ・アウトラインをとる*/
   .about-section .inner{
-    max-width: 65vw;
+    max-width: 80vw;
     margin-top: 90px;
     float: left;
     margin-bottom: 8%;
   }
 
   .career-section .inner{
-    max-width: 75vw;
+    max-width: 80vw;
     float: right;
     margin-bottom: 8%;
   }
 
   .qualification-section{
-    max-width: 75vw;
+    max-width: 80vw;
     float: left;
     margin-bottom: 8%;
   }
@@ -319,11 +319,12 @@ nav {
 
 .push-image-wrapper{
   position: relative;
-  bottom: -120px;
+  bottom: 0px;
+  right: -70px;
   z-index: 0;
 }
 .controll-image{
-  width: 200px; /* 50%のビューポート幅に対する幅 */
+  width: 150px; /* 50%のビューポート幅に対する幅 */
   aspect-ratio: 1 / 1; /* 16:9のアスペクト比 */
   align-items: left;
 }
@@ -331,8 +332,7 @@ nav {
 .controll-image-wrapper{
   position: relative;
   flex: 0 0 60px;
-  margin-left: -40px;
-  top: 10px;
+  margin-left: -20px;
   z-index: 0;
 }
 
@@ -680,7 +680,7 @@ nav {
 /*--------------------------------
 スマホサイズ
 ---------------------------------*/
-@media screen and (max-width: 767px) { 
+@media screen and (orientation: portrait) { 
   body{
     font-size: 18px;
   }
