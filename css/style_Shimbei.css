@@ -2,12 +2,12 @@
 全体の設定
 ---------------------------------*/
 :root {
-  --fullback: #333333;
+  --fullback: #470000;
   --littledark: hsl(0, 0%, 20%);
   --bright: #ffffff;
   --main: #ffffff;
   --black: rgba(0, 0, 0, 0.70);
-  --main-text: #333333;
+  --main-text: #470000;
   --insertcolor: rgb(245, 169, 169);
 }
 
@@ -136,6 +136,11 @@ nav {
   height: 540px;
   background: url(../img/header.png) center/cover no-repeat;
 } */
+
+iframe{
+ width:700px;
+ height:400px;
+}
 
 .logo {
   text-align: center;
@@ -692,6 +697,12 @@ nav {
   th ,td{
     white-space: wrap;
   }
+
+  iframe{
+    width:500px;
+    height:300px;
+   }
+   
   
   /*--------------------------------
 全体のデザイン
