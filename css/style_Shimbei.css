@@ -2,12 +2,12 @@
 全体の設定
 ---------------------------------*/
 :root {
-  --fullback: #470000;
+  --fullback: #003714;
   --littledark: hsl(0, 0%, 20%);
   --bright: #ffffff;
   --main: #ffffff;
   --black: rgba(0, 0, 0, 0.70);
-  --main-text: #470000;
+  --main-text: #003714;
   --insertcolor: rgb(245, 169, 169);
 }
 
@@ -42,7 +42,7 @@ body{
   bottom: -80px;
   height: 10%;
   padding: 20px;
-  background-color: #899654;
+  background-color: var(--insertcolor);
   transform: skewY(-0deg);
   z-index: -1;
 }
@@ -586,8 +586,8 @@ iframe{
       transform: translate(-50%, -50%);
       padding: 20px;
       background-color: #fff;
-      border: 1px solid #ccc;
-      z-index: 1;
+      border: 3px solid var(--fullback);
+      z-index: 10;
       font-size: 18px;
       color: var(--fullback);
       /* max-height: 90vh;  モーダルの最大高さを指定 */
@@ -696,13 +696,7 @@ iframe{
 
   th ,td{
     white-space: wrap;
-  }
-
-  iframe{
-    width:500px;
-    height:300px;
-   }
-   
+  }   
   
   /*--------------------------------
 全体のデザイン
